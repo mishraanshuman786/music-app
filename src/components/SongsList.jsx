@@ -80,7 +80,7 @@ const SongsList = ({ audioFiles }) => {
             Your browser does not support the audio element.
           </audio>
         )}
-        <img src="/images/player.webp" alt="player" width={400} height={100} />
+        <img src="/images/player.webp" alt="player" className="z-[-20]" width={400} height={100} />
       </div>
       {/* Absolute items */}
 
