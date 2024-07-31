@@ -1,0 +1,37 @@
+.audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .custom-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .play-pause-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .seek-bar {
+    width: 300px;
+    cursor: pointer;
+  }
+  
+  .volume-bar {
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .time-display {
+    font-size: 14px;
+    color: white;
+  }
+  
